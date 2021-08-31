@@ -53,5 +53,25 @@ int deQueue(QueueType* q) {
 		error("Queue is Empty!\n");
 		return;
 	}
-	return q->data[q->front++];
+	if (q->front == MAX_QUEUE_SIZE - 1) {
+		int box = q->front;
+		q->front = 0;
+		return q->data[box];
+	}
+	else {
+		return q->data[q->front++];
+	}
+}
+
+int size(QueueType* q) {
+	int start = q->front;
+	int cnt = 0;
+	while (start != q->rear) {
+		cnt++;
+		start++;
+		if (start == MAX_QUEUE_SIZE) {
+			start = 0;
+		}
+	}
+	return cnt;
 }

@@ -19,3 +19,5 @@ void displayQueue(QueueType* q);
 void enQueue(QueueType* q, int item);
 
 int deQueue(QueueType* q);
+
+int size(QueueType* q);
