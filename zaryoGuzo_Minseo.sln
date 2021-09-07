@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zaryoGuzo_Minseo", "zaryoGuzo_Minseo\zaryoGuzo_Minseo.vcxproj", "{A76D8ACB-B8DB-4DE5-B52E-F22D12A08CDF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedList1", "LinkedList1\LinkedList1.vcxproj", "{FF0198FF-7E57-4EAC-B11D-457298D9A49D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{A76D8ACB-B8DB-4DE5-B52E-F22D12A08CDF}.Release|x64.Build.0 = Release|x64
 		{A76D8ACB-B8DB-4DE5-B52E-F22D12A08CDF}.Release|x86.ActiveCfg = Release|Win32
 		{A76D8ACB-B8DB-4DE5-B52E-F22D12A08CDF}.Release|x86.Build.0 = Release|Win32
+		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Debug|x64.ActiveCfg = Debug|x64
+		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Debug|x64.Build.0 = Debug|x64
+		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Debug|x86.ActiveCfg = Debug|Win32
+		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Debug|x86.Build.0 = Debug|Win32
+		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Release|x64.ActiveCfg = Release|x64
+		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Release|x64.Build.0 = Release|x64
+		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Release|x86.ActiveCfg = Release|Win32
+		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
