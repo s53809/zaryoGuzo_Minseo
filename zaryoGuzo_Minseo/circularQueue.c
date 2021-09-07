@@ -62,7 +62,6 @@ int deQueue(QueueType* q) {
 		return q->data[q->front++];
 	}
 }
-
 int size(QueueType* q) {
 	int start = q->front;
 	int cnt = 0;
