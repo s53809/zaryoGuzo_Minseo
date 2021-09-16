@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zaryoGuzo_Minseo", "zaryoGu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedList1", "LinkedList1\LinkedList1.vcxproj", "{FF0198FF-7E57-4EAC-B11D-457298D9A49D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linkedlist", "Linkedlist\Linkedlist.vcxproj", "{2EBDD2EB-4F17-4E1E-931A-2083ADDA888F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Release|x64.Build.0 = Release|x64
 		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Release|x86.ActiveCfg = Release|Win32
 		{FF0198FF-7E57-4EAC-B11D-457298D9A49D}.Release|x86.Build.0 = Release|Win32
+		{2EBDD2EB-4F17-4E1E-931A-2083ADDA888F}.Debug|x64.ActiveCfg = Debug|x64
+		{2EBDD2EB-4F17-4E1E-931A-2083ADDA888F}.Debug|x64.Build.0 = Debug|x64
+		{2EBDD2EB-4F17-4E1E-931A-2083ADDA888F}.Debug|x86.ActiveCfg = Debug|Win32
+		{2EBDD2EB-4F17-4E1E-931A-2083ADDA888F}.Debug|x86.Build.0 = Debug|Win32
+		{2EBDD2EB-4F17-4E1E-931A-2083ADDA888F}.Release|x64.ActiveCfg = Release|x64
+		{2EBDD2EB-4F17-4E1E-931A-2083ADDA888F}.Release|x64.Build.0 = Release|x64
+		{2EBDD2EB-4F17-4E1E-931A-2083ADDA888F}.Release|x86.ActiveCfg = Release|Win32
+		{2EBDD2EB-4F17-4E1E-931A-2083ADDA888F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
