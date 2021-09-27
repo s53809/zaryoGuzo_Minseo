@@ -26,32 +26,32 @@ int main() {
 
 	printf("\nAfter deleteFirstNode()\n");
 	head = deleteFirstNode(head);
-	printReverseList(head);
 	printLinkedList(head);
+	printReverseList(head);
 
 	printf("\nAfter deleteNode(15)\n");
 	head = deleteNode(head, 15);
-	printReverseList(head);
 	printLinkedList(head);
+	printReverseList(head);
 
 	printf("\nAfter deleteNode(95)\n");
 	head = deleteNode(head, 95);
-	printReverseList(head);
 	printLinkedList(head);
+	printReverseList(head);
 
 	printf("\nAfter deleteNode(95)\n");
 	head = deleteNode(head, 95);
-	printReverseList(head);
 	printLinkedList(head);
+	printReverseList(head);
 
-	printf("\ninsertNum(2,12)\n");
+	printf("\nAfter insertNum(2,12)\n");
 	head = insertNum(head, 2, 12);
-	printReverseList(head);
 	printLinkedList(head);
+	printReverseList(head);
 
-	printf("\ndeleteNumNode(3)\n");
+	printf("\nAfter deleteNumNode(3)\n");
 	head = deleteNumNode(head, 3);
-	printReverseList(head);
 	printLinkedList(head);
+	printReverseList(head);
 	return 0;
 }
