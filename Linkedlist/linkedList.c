@@ -86,6 +86,7 @@ ListNode* deleteFirstNode(ListNode* head) {
 	ListNode* trash = head->link;
 	tmp->data = head->link->data;
 	tmp->link = head->link->link;
+	head = tmp;
 	free(trash);
 	return head;
 }
@@ -102,7 +103,7 @@ ListNode* deleteNode(ListNode* head, int target) {
 	}
 	ListNode* tmp = head;
 	if (tmp == prev) {
-		deleteFirstNode(head);
+		return deleteFirstNode(head);
 	}
 	while (tmp != NULL) {
 		if (tmp->link == prev) {
